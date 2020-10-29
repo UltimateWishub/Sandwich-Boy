@@ -1,21 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandwich Boy</title>
 </head>
+
 <body>
     <h1>About</h1>
     <h4>Top Five Things</h4>
     <ul>
         <li>Sandwich</li>
-        <li>subway</li>
-        <li><b>R O B L O X</b></li>
-        <li>discord</li>
+        <li>Subway</li>
+        <li><a href="https://roblox.com" target="_blank"><b>R O B L O X</b></a></li>
+        <li><a href="https://discord.com" target="_blank">Discord</a></li>
         <li>friends</li>
     </ul>
+    <hr>
+    <!--tables-->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dave</td>
+                <td>dave@something.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Bella</td>
+                <td>bella@something.com</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>may@something.com</td>
+                <td>42</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Lorem, ipsum</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam repudiandae placeat nisi! Aspernatur ut
+        corporis veritatis! Rerum consectetur doloremque distinctio, cupiditate quod ut deserunt, doloribus
+        reprehenderit, tenetur soluta veritatis error. Dolorem architecto non recusandae autem reiciendis! Consectetur,
+        omnis optio! Voluptates repellendus voluptatibus cum dolorum quisquam dicta nemo eius architecto soluta quidem
+        commodi distinctio, reiciendis illum expedita odio. Aliquam, expedita soluta ratione voluptatem odio suscipit
+        alias aliquid porro minima quidem hic autem iure obcaecati accusamus dolore aspernatur eos nam quis ex fuga
+        atque aut? Ratione sint natus minima cupiditate facere dignissimos, sapiente ducimus, quod reiciendis distinctio
+        maxime. Iusto odit non sunt.</p>
+    <hr>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Enter last name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <br>
+
+    <!-- Image -->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="images/sample.jpg" alt="My Sample Image" width="200">
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="http://traversymedia.com">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+    <p><cite>HTML crash course</cite> by Brad Traversy</p>
     <script src="index.js"></script>
 </body>
+
 </html>
